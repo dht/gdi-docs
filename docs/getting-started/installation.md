@@ -61,7 +61,7 @@ To retrieve this information follow the [create a new firebase project](../how-t
 
 :::
 
-Once your `firebase.json` is saved you can connect `firebase`.
+Once your `firebase.json` is saved you can connect `firebase` to this site.
 
 In the project's `root`:
 
@@ -94,7 +94,7 @@ Once you log in with your `Google` account, you'' be able to choose the site's a
 To do so, in the project's `root`, run:
 
 ```sh
-gdi set-admin
+gdi setAdmin
 ```
 
 ## Deploying
@@ -126,7 +126,7 @@ The `site` will be served from:
 | gdi create site [site-name] | Create a new gDI repo with admin + site packages                |
 | gdi connect                 | Validates and links site to Firebase                            |
 | gdi seed --data             | Seeds the current site with data                                |
-| gdi set-admin               | Choose an admin for the current site                            |
+| gdi setAdmin                | Choose an admin for the current site                            |
 | gdi list projects           | Shows Firebase projects. A wrapper for `firebase projects:list` |
 | gdi start                   | Start `gdi-admin` in development mode                           |
 | gdi preview                 | Start `gdi-site` in development mode                            |
