@@ -12,6 +12,11 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    height: 90vh;
+  }
 `;
 
 export const Title = styled.h1`
@@ -23,6 +28,10 @@ export const TagLine = styled.p`
   max-width: 50rem;
   text-align: center;
   margin-bottom: 5rem;
+
+  @media (max-width: 1000px) {
+    font-size: 20px;
+  }
 
   span {
     background-color: #f0ff45;
@@ -40,7 +49,7 @@ export const Beta = styled.sup`
 export const CTA = styled.a`
   background-color: black;
   color: white;
-  padding: 15px 50px;
+  padding: 1rem 2rem;
   border-radius: 30px;
   font-size: 18px;
   font-weight: 500;
@@ -58,6 +67,11 @@ export const CTA = styled.a`
     left: 2px;
     bottom: 2px;
   }
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    height: 90vh;
+  }
 `;
 
 export const Secondary = styled(CTA)`
@@ -67,6 +81,6 @@ export const Secondary = styled(CTA)`
 
 export const Actions = styled.div`
   > a {
-    margin: 0 12px;
+    margin: 0 0.4rem;
   }
 `;
