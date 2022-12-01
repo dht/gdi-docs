@@ -72,7 +72,7 @@ Click `Continue to console`.
 
 ![create-app-step-4](./screenshots/create-app-step-4.jpg)
 
-# Enable Sign-in with Google
+# Enable Sign in with Google
 
 On the side menu expand `Build` and click `Authentication`, click the `Get started` button in the top introduction section:
 
