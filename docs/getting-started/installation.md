@@ -39,6 +39,18 @@ Change your `cwd` to your newly created `root` folder:
 cd [site-name]
 ```
 
+and install the project's dependencies:
+
+```sh
+npm i
+```
+
+or:
+
+```sh
+yarn
+```
+
 ## Connect Firebase
 
 Create a [Firebase project](../how-tos/create-a-firebase-project), enable [Google Authentication](../how-tos/create-a-firebase-project#enable-sign-in-with-Google), Firestore and Hosting.
